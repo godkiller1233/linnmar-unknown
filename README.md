@@ -501,8 +501,6 @@ You need a GitHub account and an internet connection. On Windows 10/11, the scri
 
 For Render, open Render and use **New → Blueprint**, then select the GitHub repository. Render will use the included `render.yaml` deployment configuration.
 
-## GitHub Upload (visible window)
+## UI Style
 
-If `UPLOAD-TO-GITHUB.bat` closes too quickly, double-click `RUN-GITHUB-UPLOADER.bat` instead. It opens a normal Command Prompt and keeps it open so you can read and copy every message/error.
-
-The detailed log is saved as `github-upload.log`.
+This Render-ready build uses the original Discord-style Linnmar Unknown interface, including the three-column layout, channel sidebar, online members panel, profile customization, and full tabbed admin console. The Render/Postgres/Supabase deployment pieces remain underneath the same interface.
